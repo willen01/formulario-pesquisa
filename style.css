@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(./img/ny.jpg);
+    background-size: cover;
+}
+.content{
+    text-align: center;
+    color:rgba(61, 151, 51, 0.952);
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.container{
+    max-width: 600px;
+    font-size: 20px;
+    margin:auto;
+    background-color: rgba(92, 92, 112, 0.582);
+    padding: 70px;
+    
+}
+
+.wid{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mb{
+    margin-bottom: 10px;
+}
+p{
+    margin: 0px;
+    padding: 5px;
+}
+input[type="submit"]{
+    background-color: rgba(94, 112, 92, 0.795);
+    font-weight: bold;
+    transition: all .5s;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(61, 151, 51, 0.952);
+}

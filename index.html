@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/law.png">
+
+</head>
+
+<body>
+    <div class="content">
+        <h1>Survey Research</h1>
+        <p> <i>Help improve our services by filling out the form below</i></p>
+    </div>
+    <div class="container">
+
+        <form action="">
+            <p>Name</p><input class="wid" type="text" name="name" placeholder="Nome" autocomplete="off">
+            <p>Email</p><input class="wid" type="email" name="email" placeholder="Email" autocomplete="off">
+            <p>Age</p><input class="wid" type="text" name="age" placeholder="Age" autocomplete="off">
+
+            <p>Which option best describes your current role?</p>
+            <select name="op" class="wid">
+                <option value="none">---</option>
+                <option value="job">Full time job</option>
+                <option value="learn">Full time learn</option>
+                <option value="notsay">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            <div class="mb">
+                <p>Would you recommend our organization to a friend?</p>
+
+                <input id="cb1" type="radio" name="recommend" value="op1"> masculino <br>
+                <input id="cb2" type="radio" name="recommend" value="op2"> feminino <br>
+                <input id="cb3" type="radio" name="recommend" value="op3"> infantil <br>
+            </div>
+
+
+
+            <p>What is your favorite feature of our organization?</p>
+            <select name="op2" class="wid">
+                <option value="none">---</option>
+                <option value="challenges">Challenges</option>
+                <option value="proj">Projects</option>
+                <option value="comu">Community</option>
+                <option value="osource">Open Source</option>
+            </select>
+
+            <div class="mb">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox" name=""> Front-end Projects<br>
+                <input type="checkbox" name=""> Back-end Projects<br>
+                <input type="checkbox" name=""> Data Visualization<br>
+                <input type="checkbox" name=""> Challenges<br>
+                <input type="checkbox" name=""> Open Source Community<br>
+                <input type="checkbox" name=""> Gitter help rooms<br>
+                <input type="checkbox" name=""> Videos<br>
+                <input type="checkbox" name=""> City Meetups<br>
+                <input type="checkbox" name=""> Wiki<br>
+                <input type="checkbox" name=""> Forum<br>
+                <input type="checkbox" name=""> Additional Courses<br>
+            </div>
+
+            <p>Any comments or suggestions?</p>
+            <textarea name="textbox" class="wid" autocomplete="off"></textarea>
+            <input type="submit" value="Submit" class="wid">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
